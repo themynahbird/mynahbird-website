@@ -3,11 +3,15 @@ body {
   margin: 0;
   font-family: sans-serif;
   line-height: 1.6;
-  background-color: #fff;
+  background-color: #e5e0d8;
   color: #222;
 }
 
 h2 {font-size: 32px !important;}
+
+img {
+  width: 100%;
+}
 
 /* Full-width header image */
 .header-img {
@@ -37,10 +41,28 @@ h2 {font-size: 32px !important;}
   top: 24px;
   margin-top: -30px;
 }
-
 .disclaimer-text {
     font-size: 12px;
     line-height: 17px;
+}
+img#signup-banner {
+  margin-bottom: 30px;
+}
+.signup-banner-text {
+  margin-bottom: 7px;
+}
+
+
+footer {
+  padding: 20px;
+  text-align: center;
+  background-color: #000;
+  color: #fff;
+}
+
+footer .disclaimer-text {
+  max-width: 600px;
+  margin: auto;
 }
 
 /* HELPERS */
