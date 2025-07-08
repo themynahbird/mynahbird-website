@@ -1,4 +1,4 @@
-/* Reset some defaults */
+/* Let's do this like Brutus.... */
 body {
   margin: 0;
   font-family: sans-serif;
@@ -6,6 +6,8 @@ body {
   background-color: #fff;
   color: #222;
 }
+
+h2 {font-size: 32px !important;}
 
 /* Full-width header image */
 .header-img {
@@ -16,7 +18,32 @@ body {
 
 /* Body content container */
 .content {
-  max-width: 1200px;
+  max-width: 910px;
   margin: 0 auto;
   padding: 0;
+  background-color: white;
+}
+
+
+#mc_embed_shell {
+  max-width: 430px;
+  margin: auto;
+}
+#mc_embed_signup {
+  width: 100% !important;
+}
+#mc_embed_signup .indicates-required {
+  position: relative;
+  top: 24px;
+  margin-top: -30px;
+}
+
+.disclaimer-text {
+    font-size: 12px;
+    line-height: 17px;
+}
+
+/* HELPERS */
+.flex {
+    display: flex;
 }
