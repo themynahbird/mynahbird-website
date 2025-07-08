@@ -62,10 +62,17 @@ footer {
   margin-top: 20px;
 }
 .mynah-end-block {
+  display: none;
     position: absolute;
     width: 38px;
     top: -33px;
     margin-left: 40px;
+}
+.mynah-end-block-mayjah {
+  position: absolute;
+  width: 38px;
+  top: -33px;
+  margin-left: 40px;
 }
 footer .disclaimer-text {
   max-width: 600px;
