@@ -1,10 +1,22 @@
+/* Reset some defaults */
 body {
-    font-family: sans-serif;
-    max-width: 800px;
-    margin: auto;
-    padding: 2em;
-    line-height: 1.6;
-  }
-  header {
-    text-align: center;
-  }
+  margin: 0;
+  font-family: sans-serif;
+  line-height: 1.6;
+  background-color: #fff;
+  color: #222;
+}
+
+/* Full-width header image */
+.header-img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+/* Body content container */
+.content {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem 1rem;
+}
