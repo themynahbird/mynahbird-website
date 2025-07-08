@@ -28,10 +28,11 @@ img {
   max-width: 910px;
   margin: 0 auto;
   padding: 0;
-  background-color: white;
+  
 }
 
 main {
+  background-color: white;
   flex: 1; /* Pushes footer to the bottom if there's not enough content */
 }
 
@@ -98,7 +99,7 @@ footer .disclaimer-text {
     display: flex;
 }
 
-@media (max-width: 600px) {
+@media screen and (max-width: 600px) {
   header {
     margin-bottom: 10px;
     margin-top: 17px;
