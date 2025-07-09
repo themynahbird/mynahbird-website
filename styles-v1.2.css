@@ -46,7 +46,7 @@ body {
   }
   
   .cover-image {
-    display: block;
+    display: flex;
     max-width: 300px;
     margin: auto;
     margin-bottom: 30px;
