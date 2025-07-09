@@ -7,6 +7,14 @@ body {
   color: #222;
 }
 
+padding {
+  margin: 0;
+  font-family: sans-serif;
+  line-height: 1.6;
+  background-color: #e5e0d8;
+  color: #222;
+}
+
 h2 {font-size: 32px !important;}
 
 img {
@@ -67,14 +75,12 @@ img#signup-banner {
   font-size: 14px;
 }
 
-
+/* FOOTER */
 footer {
-  padding: 20px 20px 20px 20px;
   text-align: center;
   background-color: #000;
   color: #fff;
   position: relative;
-  margin-top: 40px;
 }
 .mynah-end-block {
   display: none;
@@ -84,14 +90,20 @@ footer {
   margin-left: 40px;
 }
 .mynah-end-block-mayjah {
+  background-color: #fff;
+  width: 100%;
+  height: 40px;
+}
+.mynah-end-block-mayjah img {
   position: absolute;
-  width: 123px;
-  top: -45px;
+  width: 100px;
+  top: 6px;
   right: 10%;
 }
 footer .disclaimer-text {
   max-width: 600px;
   margin: auto;
+  padding: 20px
 }
 
 /* HELPERS */
@@ -99,7 +111,87 @@ footer .disclaimer-text {
     display: flex;
 }
 
+/* DID YOU READ THIS */
+#did-you-read-this {
+    text-align: center;
+    max-width: 600px;
+    margin: auto;
+    padding: 30px;
+}
+#did-you-read-this h2 {
+    font-size: 30px !important;
+    line-height: 35px;
+    margin-bottom: 16px;
+}
+
+/* THE BUTTON */
+.button {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  width: 128px;
+  height: 128px;
+  cursor: pointer;
+  top: 0;
+  border: 1px solid #B21522;
+  -webkit-border-radius: 100px;
+  border-radius: 100px;
+  font: normal normal normal 20px/1.1 "Black Ops One", Helvetica, sans-serif;
+  color: rgba(255,255,255,0.9);
+  text-align: center;
+  white-space: pre;
+  background: -webkit-radial-gradient( 50% 50% , ellipse closest-side, rgba(255,255,255,0.2) 0, rgba(0,0,0,0) 100%), #C91826;
+  background: -moz-radial-gradient( 50% 50% , ellipse closest-side, rgba(255,255,255,0.2) 0, rgba(0,0,0,0) 100%), #C91826;
+  background: radial-gradient( 50% 50% , ellipse closest-side, rgba(255,255,255,0.2) 0, rgba(0,0,0,0) 100%), #C91826;
+  background-repeat: no-repeat;
+  background-position: 0 100%;
+  -webkit-background-size: 158px 142px;
+  background-size: 158px 142px;
+  -webkit-box-shadow: 1px 16px 10px 5px rgba(0,0,0,0.2) , 0 14px 0 0 #000000 , 4px 8px 15px 4px rgba(0,0,0,0.4) , 5px 1px 5px 0 rgba(255,255,255,0.2) inset, 5px -4px 5px 0 rgba(255,255,255,0.2) inset, -2px 3px 6px 0 rgba(0,0,0,0.2) inset;
+  box-shadow: 1px 16px 10px 5px rgba(0,0,0,0.2) , 0 14px 0 0 #000000 , 4px 8px 15px 4px rgba(0,0,0,0.4) , 5px 1px 5px 0 rgba(255,255,255,0.2) inset, 5px -4px 5px 0 rgba(255,255,255,0.2) inset, -2px 3px 6px 0 rgba(0,0,0,0.2) inset;
+  text-shadow: 0 -1px 0 rgba(40,40,40,0.6) ;
+  -webkit-transition: all 40ms 0 cubic-bezier(0.6, -0.28, 0.735, 0.04);
+  -moz-transition: all 40ms 0 cubic-bezier(0.6, -0.28, 0.735, 0.04);
+  -o-transition: all 40ms 0 cubic-bezier(0.6, -0.28, 0.735, 0.04);
+  transition: all 40ms 0 cubic-bezier(0.6, -0.28, 0.735, 0.04);
+  -moz-transform: rotateX(35deg) scaleX(1) scaleY(1) scaleZ(1) translateY(15px) translateZ(40px) ;
+  -webkit-transform: rotateX(35deg) scaleX(1) scaleY(1) scaleZ(1) translateY(15px) translateZ(40px) ;
+  transform: rotateX(35deg) scaleX(1) scaleY(1) scaleZ(1) translateY(15px) translateZ(40px) ;
+  outline:none;
+}
+
+.button:hover {
+  background: -webkit-radial-gradient( 50% 50% , ellipse closest-side, rgba(255,255,255,0.28) 0, rgba(0,0,0,0) 100%), #a80008;
+  background: -moz-radial-gradient( 50% 50% , ellipse closest-side, rgba(255,255,255,0.28) 0, rgba(0,0,0,0) 100%), #a80008;
+  background: radial-gradient( 50% 50% , ellipse closest-side, rgba(255,255,255,0.28) 0, rgba(0,0,0,0) 100%), #a80008;
+  -webkit-box-shadow: 1px 16px 10px 5px rgba(0,0,0,0.2) , 0 14px 0 0 #000000 , 4px 8px 15px 4px rgba(0,0,0,0.4) , 5px 1px 5px 0 rgba(255,255,255,0.2) inset, 5px -4px 5px 0 rgba(255,255,255,0.2) inset, -2px 2px 6px 0 rgba(0,0,0,0.2) inset;
+  box-shadow: 1px 16px 10px 5px rgba(0,0,0,0.2) , 0 14px 0 0 #000000 , 4px 8px 15px 4px rgba(0,0,0,0.4) , 5px 1px 5px 0 rgba(255,255,255,0.2) inset, 5px -4px 5px 0 rgba(255,255,255,0.2) inset, -2px 2px 6px 0 rgba(0,0,0,0.2) inset;
+  -webkit-transition: all 0 0 cubic-bezier(0.42, 0, 0.58, 1);
+  -moz-transition: all 0 0 cubic-bezier(0.42, 0, 0.58, 1);
+  -o-transition: all 0 0 cubic-bezier(0.42, 0, 0.58, 1);
+  transition: all 0 0 cubic-bezier(0.42, 0, 0.58, 1);
+}
+
+.button:active {
+  position: relative;
+  top: 6px;
+  background: -webkit-radial-gradient( 50% 50% , ellipse closest-side, rgba(255,255,255,0.2) 0, rgba(0,0,0,0) 100%), #c60009;
+  background: -moz-radial-gradient( 50% 50% , ellipse closest-side, rgba(255,255,255,0.2) 0, rgba(0,0,0,0) 100%), #c60009;
+  background: radial-gradient( 50% 50% , ellipse closest-side, rgba(255,255,255,0.2) 0, rgba(0,0,0,0) 100%), #c60009;
+  -webkit-box-shadow: 1px 5px 8px 4px rgba(0,0,0,0.4) , 0 7px 0 0 #000000 , 1px 2px 1px 1px rgba(0,0,0,0.6) , 3px 1px 5px 0 rgba(255,255,255,0.2) inset, 3px -6px 5px 0 rgba(255,255,255,0.2) inset, -1px 1px 4px 0 rgba(0,0,0,0.2) inset;
+  box-shadow: 1px 5px 8px 4px rgba(0,0,0,0.4) , 0 7px 0 0 #000000 , 1px 2px 1px 1px rgba(0,0,0,0.6) , 3px 1px 5px 0 rgba(255,255,255,0.2) inset, 3px -6px 5px 0 rgba(255,255,255,0.2) inset, -1px 1px 4px 0 rgba(0,0,0,0.2) inset;
+  -webkit-transition: all 40ms 0 cubic-bezier(0.42, 0, 0.58, 1);
+  -moz-transition: all 40ms 0 cubic-bezier(0.42, 0, 0.58, 1);
+  -o-transition: all 40ms 0 cubic-bezier(0.42, 0, 0.58, 1);
+  transition: all 40ms 0 cubic-bezier(0.42, 0, 0.58, 1);
+}
+
+/* PHONE STYLES */
 @media screen and (max-width: 600px) {
+  .desktop {
+    display:none;
+  }
+  
   header {
     margin-bottom: 10px;
     padding-top: 50px;
@@ -107,11 +199,16 @@ footer .disclaimer-text {
   }
   main {
     background-color: #e5e0d8 !important;
-    margin-bottom: -40px;
+    margin-bottom: 0px;
   }
 
   .mynah-end-block-mayjah {
-      width: 153px; 
-      top: -55px;
+    height: 50px;
+    background-color: #e5e0d8;
+    margin-top: -2px;
+  }
+  .mynah-end-block-mayjah img {
+  width: 125px;
+  top: 4px;
   }
 }
