@@ -52,6 +52,10 @@ main {
   flex: 1; /* Pushes footer to the bottom if there's not enough content */
 }
 
+.cover-image {
+    
+}
+
 
 #mailchimp-embed-wrapper {
   padding: 14px;
