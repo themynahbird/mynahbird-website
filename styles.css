@@ -15,7 +15,7 @@ padding {
   color: #222;
 }
 
-h2 {font-size: 32px !important;}
+h2 {font-size: 32px !important;margin: 0px;line-height: 41px;}
 
 img {
   width: 100%;
@@ -135,6 +135,17 @@ footer .disclaimer-text p {
     font-size: 30px !important;
     line-height: 35px;
     margin-bottom: 16px;
+}
+.confirmation-message-box {
+    text-align: center;
+    max-width: 600px;
+    margin: auto;
+    padding: 20px 20px 10px 20px;
+    background-color: #fdffd1;
+    margin-bottom: 20px;
+    border-radius: 20px;
+    margin-top: 10px;
+    border: 1px solid #a8d5db;
 }
 
 /* THE BUTTON */
