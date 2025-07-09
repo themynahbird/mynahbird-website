@@ -147,6 +147,16 @@ footer .disclaimer-text p {
     margin-top: 10px;
     border: 1px solid #a8d5db;
 }
+.dancing-banana {
+  width:100%;
+  text-align: center;
+}
+.dancing-banana img {
+  width: 160px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
 
 /* THE BUTTON */
 .big-3d-button {
