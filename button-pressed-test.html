@@ -56,8 +56,35 @@
         </header>
 
         <main>
+<div class="text-box">
 
-            <div class="dancing-banana"><img src="/images/dancing-banana.gif"></div>
+     <div class="dancing-banana"><img class="toggle-music" src="/images/dancing-banana.gif" onclick="document.getElementById('bgMusic').play()">
+<audio id="bgMusic">
+  <source src="/audio/happy-drum-and-bass.mp3" type="audio/mpeg">
+</audio>
+
+<br><a class="rainbow-text toggle-music">(Play happy music)</a>
+
+                <audio id="bgMusic">
+  <source src="/audio/happy-drum-and-bass.mp3" type="audio/mpeg">
+</audio>
+
+<script>
+  const music = document.getElementById('bgMusic');
+  const toggles = document.querySelectorAll('.toggle-music');
+
+  toggles.forEach(el => {
+    el.addEventListener('click', () => {
+      if (music.paused) {
+        music.play();
+      } else {
+        music.pause();
+      }
+    });
+  });
+</script>
+
+</div>
 
             <div class="confirmation-message-box">
                 <h2>Thanks for letting us know you read the Mynah Bird! 🤙</h2>
@@ -65,6 +92,9 @@
                     Bird Newsletter using the form below. And, if you're feeling extra supportive, spread the word.</p>
                 <p>Thanks again and we're looking forward to seeing again you soon! </p>
             </div>
+    
+</div>
+           
 
             <div class="center mb-50" style="margin-bottom: 40px;">
 

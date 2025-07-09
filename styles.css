@@ -146,8 +146,6 @@ footer .disclaimer-text p {
     border-radius: 20px;
     margin-top: 10px;
     border: 1px solid #a8d5db;
-    margin-right: 14px;
-    margin-left: 14px;
 }
 .dancing-banana {
   width:100%;
@@ -158,6 +156,19 @@ footer .disclaimer-text p {
   width: 160px;
   margin-top: 0px;
   margin-bottom: 0px;
+}
+.rainbow-text {
+  animation: rainbow 4s infinite linear;
+}
+@keyframes rainbow {
+  0%   { color: red; }
+  14%  { color: orange; }
+  28%  { color: yellow; }
+  42%  { color: green; }
+  57%  { color: blue; }
+  71%  { color: indigo; }
+  85%  { color: violet; }
+  100% { color: red; }
 }
 
 
@@ -228,34 +239,42 @@ footer .disclaimer-text p {
   .desktop {
     display:none;
   }
-  
+
+  /* Template Styles */
   header {
     margin-bottom: 10px;
     padding-top: 50px;
     background-color: #000;
   }
-  .thank-you-page header {
-    margin-bottom: -1px;
-  }
-  
   main {
     background-color: #e5e0d8;
     margin-bottom: 0px;
   }
-  .thank-you-page main {
-    background-color: #fff;
-  }
-
   .mynah-end-block-mayjah {
     height: 50px;
     background-color: #e5e0d8;
+  }
+  .mynah-end-block-mayjah img {
+  width: 175px;
+  top: -11px;
+  }
+
+  .text-box {
+    padding-left: 14px;
+    padding-right: 14px;
+  }
+
+
+  /* Page Specific Styles */
+  .thank-you-page header {
+    margin-bottom: -1px;
+  }
+  .thank-you-page main {
+    background-color: #fff;
   }
   .thank-you-page .mynah-end-block-mayjah {
     background-color: #fff;
   }
   
-  .mynah-end-block-mayjah img {
-  width: 175px;
-  top: -11px;
-  }
+  
 }
