@@ -21,6 +21,14 @@ img {
   width: 100%;
 }
 
+.primary-button {
+  background-color: #2363d2;
+  text-decoration: none;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 10px;
+}
+
 /* Full-width header image */
 .header-img {
   width: 100%;
@@ -78,7 +86,6 @@ img#signup-banner {
 /* FOOTER */
 footer {
   text-align: center;
-  background-color: #000;
   color: #fff;
   position: relative;
 }
@@ -101,6 +108,9 @@ footer {
   right: 10%;
 }
 footer .disclaimer-text {
+  background-color: #000;
+}
+footer .disclaimer-text p {
   max-width: 600px;
   margin: auto;
   padding: 20px
@@ -109,6 +119,9 @@ footer .disclaimer-text {
 /* HELPERS */
 .flex {
     display: flex;
+}
+.center {
+  text-align: center;
 }
 
 /* DID YOU READ THIS */
@@ -125,7 +138,7 @@ footer .disclaimer-text {
 }
 
 /* THE BUTTON */
-.button {
+.big-3d-button {
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
@@ -160,7 +173,7 @@ footer .disclaimer-text {
   outline:none;
 }
 
-.button:hover {
+.big-3d-button:hover {
   background: -webkit-radial-gradient( 50% 50% , ellipse closest-side, rgba(255,255,255,0.28) 0, rgba(0,0,0,0) 100%), #a80008;
   background: -moz-radial-gradient( 50% 50% , ellipse closest-side, rgba(255,255,255,0.28) 0, rgba(0,0,0,0) 100%), #a80008;
   background: radial-gradient( 50% 50% , ellipse closest-side, rgba(255,255,255,0.28) 0, rgba(0,0,0,0) 100%), #a80008;
@@ -172,7 +185,7 @@ footer .disclaimer-text {
   transition: all 0 0 cubic-bezier(0.42, 0, 0.58, 1);
 }
 
-.button:active {
+.big-3d-button:active {
   position: relative;
   top: 6px;
   background: -webkit-radial-gradient( 50% 50% , ellipse closest-side, rgba(255,255,255,0.2) 0, rgba(0,0,0,0) 100%), #c60009;
@@ -205,10 +218,9 @@ footer .disclaimer-text {
   .mynah-end-block-mayjah {
     height: 50px;
     background-color: #e5e0d8;
-    margin-top: -2px;
   }
   .mynah-end-block-mayjah img {
   width: 125px;
-  top: 4px;
+  top: 5px;
   }
 }
